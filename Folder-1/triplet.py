@@ -19,5 +19,5 @@ def triplet( array, target_value):
     return result
 
 array = [1,2,3,4,5,6,7,8]
-target_value =14
+target_value =12
 print(triplet(array,target_value))

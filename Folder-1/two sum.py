@@ -17,6 +17,7 @@ print(two_sum(array1,target))
 #Time Complexity O(n), Space Complexity O(n)
 def two_sum(array,target):
     num_available = {}
+    print(type(num_available))
     for i in range(len(array)):
         needed_val = target - array[i]
         if needed_val in num_available:
@@ -24,3 +25,7 @@ def two_sum(array,target):
         else:
             num_available[array[i]]=i
     return []  
+
+
+
+### use set method
